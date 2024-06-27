@@ -22,3 +22,15 @@ function numSoma() {
 
     alert(`A soma dos números é ${soma}`);
 }
+
+let olaMundo = () => console.log('Olá Mundo!!');
+
+let nomePessoa = (nome) => console.log(`Olá ${nome}!`);
+
+let numDobro = (numero) => console.log(numero * 2);
+
+let media = (num1, num2, num3) => console.log((num1 + num2 + num3)/3);
+
+let maior = (x, y) => console.log(x > y ? x : y);
+
+let multEleMesmo = (num) => console.log(num ** 2)
