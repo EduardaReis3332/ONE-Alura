@@ -2,12 +2,13 @@ header {
   text-align: center;
   font-size: 30px;
   color: #279EFF;
+  margin-top: 20px;
 }
 
-main, html {
+main, html, body {
   margin: 0;
   padding: 0;
-  height: 50%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,8 +16,19 @@ main, html {
 }
 
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   text-align: center;
   color: #279EFF;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 
 .button {
@@ -32,4 +44,3 @@ main, html {
 .button:hover {
   background-color: #2980b9;
 }
-
