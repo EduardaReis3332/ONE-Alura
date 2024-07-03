@@ -64,3 +64,16 @@ let tabuada = () => {
     
     return alert(`2 X ${numTab}: ${numTab*2}\n3 X ${numTab}: ${numTab*3}\n4 X ${numTab}: ${numTab*4}\n5 X ${numTab}: ${numTab*5}\n6 X ${numTab}: ${numTab*6}\n7 X ${numTab}: ${numTab*7}\n8 X ${numTab}: ${numTab*8}\n9 X ${numTab}: ${numTab*9}\n`);
 }
+
+let listaGenerica = [];
+let linguagensDeProgramacao = ['JavaScript','C','C++', 'Kotlin', 'Python'];
+
+linguagensDeProgramacao.push('Java', 'Ruby', 'GoLang');
+
+let nomes = ['duda', 'fernanda', 'jéssica'];
+
+console.log(nomes[0]);
+
+console.log(nomes[1]);
+
+console.log(nomes[2]);
