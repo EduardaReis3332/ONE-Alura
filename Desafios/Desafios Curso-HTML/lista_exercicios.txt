@@ -315,3 +315,68 @@ Nesta atividade, você irá revisar e aplicar as variáveis CSS criadas para ger
 
 6) Testando a flexibilidade das variáveis CSS com uma nova paleta de cores
 Nesta atividade, você testará a flexibilidade das variáveis CSS alterando a paleta de cores do projeto. Acesse o site Color Hunt e escolha uma nova paleta de cores. Copie os valores hexadecimais das cores escolhidas e substitua-os nas variáveis CSS dentro do :root no arquivo style.css. Por exemplo, altere o valor de --cor-primaria para o novo valor de cor escolhido. Após alterar todas as cores, salve o arquivo e visualize o projeto no navegador para ver as mudanças. Esta atividade demonstrará como as variáveis CSS podem facilitar a manutenção e alteração do design de um projeto.
+
+(15)
+
+1) Adaptando o corpo do texto para unidades relativas
+Nesta atividade, você adaptará o corpo do texto do seu projeto para responder melhor às configurações do navegador do usuário. Escolha elementos de texto, como parágrafos (<p>) ou subtítulos (<h2>), no arquivo style.css e altere a unidade de medida do font-size de px para rem. Por exemplo, se um parágrafo está com font-size: 18px, converta para 1.125rem (18 / 16 = 1.125). Após a alteração, salve o arquivo e teste o comportamento do texto alterando o tamanho da fonte nas configurações de aparência do navegador.
+
+2) Convertendo pixels para rem em CSS
+Você está trabalhando em um projeto de site e recebeu a tarefa de atualizar o CSS para melhorar a responsividade do texto. Seu objetivo é converter todas as unidades de font-size de pixels para rem, seguindo o exemplo que Guilherme e Rafaela mostraram. Inicie procurando todas as ocorrências de font-size no arquivo styles.css e faça a conversão. Lembre-se de que o valor padrão para 1rem é 16px. Por exemplo, se encontrar font-size: 24px;, você deve converter para font-size: 1.5rem;.
+
+3) Melhorando a responsividade de um site
+Seu desafio agora é testar a responsividade do site após as alterações feitas no font-size. Para isso, abra a página de portfólio no navegador e altere as configurações de tamanho de fonte (Muito grande, Grande, Médio, Pequeno e Muito pequeno). Observe como os textos do site se adaptam a cada mudança e faça anotações sobre quaisquer problemas de layout ou legibilidade que você encontre. Isso ajudará a identificar se as mudanças feitas realmente melhoraram a experiência do usuário em diferentes configurações.
+
+4) Ajustando o CSS para diferentes tamanhos de fonte
+Após testar a responsividade do site, você percebeu que algumas seções não se adaptam bem a tamanhos de fonte muito grandes ou muito pequenos. Sua tarefa agora é ajustar o CSS para garantir que o site permaneça legível e visualmente agradável em todos os tamanhos de fonte. Isso pode envolver ajustar margin, padding, ou até mesmo o font-size de algumas seções específicas. Faça as alterações necessárias no arquivo styles.css e teste novamente a responsividade em diferentes tamanhos de fonte.
+
+(16)
+
+1) Adaptando imagens para diferentes tamanhos de tela
+Você está trabalhando em um site e precisa garantir que as imagens se adaptem corretamente a diferentes tamanhos de tela. Sua tarefa é adicionar uma classe apresentacao__imagem às imagens relevantes no HTML e definir o width dessa classe para 50% no CSS. Isso fará com que as imagens ocupem 50% da largura do elemento pai. Certifique-se de testar em diferentes larguras de tela, como 720px, para verificar a responsividade.
+
+2) Ajustando o layout para diferentes dispositivos
+O layout do seu site precisa ser ajustado para diferentes dispositivos. Utilize a ferramenta "Inspecionar" do navegador para simular diferentes tamanhos de tela, como um notebook. Ajuste o layout da página para que ele se adapte de forma harmoniosa em telas menores. Isso pode envolver a alteração de margens, paddings, e até mesmo a reorganização de elementos na página.
+
+3) Responsividade do conteúdo de texto
+O conteúdo de texto do seu site não está se adaptando bem a telas menores. Você precisa ajustar a classe .apresentacao__conteudo no CSS para usar larguras relativas em vez de fixas. Experimente definir a width para 50% e observe como o texto se adapta quando você muda o tamanho da tela. Lembre-se de que a responsividade é chave para uma boa experiência do usuário em dispositivos diversos.
+
+4) Melhorando a responsividade dos links de navegação
+Os links de navegação do seu site estão se comportando de forma inadequada em diferentes tamanhos de tela. Sua tarefa é ajustar a classe .apresentacao__links__navegacao no CSS. Altere a width para um valor relativo, como 50%, e teste em diferentes tamanhos de tela. Observe como os links respondem a essas mudanças e ajuste conforme necessário para garantir uma navegação fluida e acessível.
+
+(17)
+
+1) Ajustando o layout para telas menores
+Você está trabalhando em um projeto de portfólio e percebeu que, ao diminuir o tamanho da tela, os elementos começam a se comportar de forma indesejada, com a imagem colada ao texto. Seu desafio é ajustar o layout da página para que, ao diminuir a tela, haja um espaço adequado entre os elementos. Utilize a propriedade gap no CSS para criar um espaçamento entre o conteúdo e a imagem dentro da classe .apresentacao.
+
+2) Implementando media queries para mudança de layout
+Quando a largura da tela atinge cerca de 1300px, você nota que a imagem na página do portfólio fica isolada no lado direito. Seu objetivo agora é alterar o layout para que, em telas menores que 1023px, a imagem seja posicionada acima do texto, seguindo o design mobile no Figma. Para isso, implemente uma media query no CSS que modifique a disposição dos elementos da classe .apresentacao para uma coluna quando a tela for menor que 1023px.
+
+3) Refinando o layout responsivo
+Agora que você ajustou o layout para telas menores, percebeu que a ordem dos elementos na classe .apresentacao não está conforme o design do Figma, onde a imagem deveria aparecer acima do texto. Seu desafio é alterar a ordem dos elementos dentro dessa classe quando a tela estiver abaixo de 1200px de largura. Utilize a propriedade flex-direction no CSS com o valor column-reverse na media query para inverter a ordem dos elementos.
+
+4) Ajustando o cabeçalho para telas menores
+Neste desafio, você precisa ajustar o cabeçalho da página do portfólio para dispositivos com telas menores. Atualmente, o cabeçalho (header) está muito para a esquerda e quebra em certos pontos. Altere o padding da classe .cabecalho no CSS para que fique mais centralizado e com um espaço adequado na parte superior da tela, em conformidade com o design mobile no Figma.
+
+5) Centralizando itens do menu em telas menores
+Agora que o padding do cabeçalho foi ajustado, seu próximo passo é centralizar os itens "Home" e "Sobre mim" que estão dentro do cabeçalho. Para isso, utilize o flexbox na classe .cabecalho__menu. Verifique se a propriedade display: flex já está aplicada e adicione justify-content: center para alinhar os itens centralmente.
+
+6) Refinando o design responsivo do cabeçalho
+Por fim, verifique e refine o design do cabeçalho para telas menores. Faça os ajustes necessários no padding e nas propriedades do flexbox para que o cabeçalho fique visualmente alinhado com o design do Figma. Teste diferentes valores de padding e ajuste a propriedade justify-content para obter o melhor resultado.
+
+(18)
+
+1) Ajustando o espaçamento para telas menores
+Você está trabalhando em um projeto web e percebe que o design para telas menores precisa ser aprimorado. O conteúdo parece "espremido" ao centro, devido ao espaçamento excessivo nas laterais. Seu objetivo é ajustar o padding da classe .apresentacao no CSS para melhorar a visualização em dispositivos menores.
+
+2) Refinando a largura do conteúdo em dispositivos menores
+Após ajustar o espaçamento, você percebe que o conteúdo dentro da classe .apresentacao__conteudo ainda ocupa muito espaço em telas menores. Seu desafio agora é ajustar a largura dessa classe para que ela acompanhe o novo padding aplicado na classe .apresentacao.
+
+3) Avaliando o efeito do width: auto em dispositivos menores
+A última tarefa envolve avaliar o impacto da mudança do width para auto na classe .apresentacao__conteudo. Você precisa verificar se a largura do conteúdo se adapta corretamente ao padding de 5% aplicado, garantindo uma exibição adequada em telas menores.
+
+4) Criando uma conta no GitHub
+Neste exercício, você irá criar uma conta no GitHub, uma plataforma essencial para qualquer pessoa que atua com desenvolvimento web. O GitHub permite hospedar e compartilhar projetos, facilitando a colaboração. Sua tarefa é navegar pelo processo de inscrição no GitHub, configurar sua conta e explorar as principais funcionalidades disponíveis.
+
+5) Subindo um projeto no GitHub
+Agora que você tem uma conta no GitHub, o próximo passo é aprender a "subir" um projeto. Você utilizará o GitHub para hospedar seu projeto web, que inclui arquivos HTML, CSS, JavaScript, entre outros. O foco será no processo de criação de um novo repositório e no envio (upload) dos arquivos do seu projeto para o GitHub.
