@@ -28,7 +28,6 @@ O HTML define a estrutura da página. Veja o trecho principal:
 <body>
     <div class="container">
         <div class="left-panel">
-            <!-- Interface para digitar o texto -->
             <textarea placeholder="Digite seu texto"></textarea>
             <button class="btn-crypto">Criptografar</button>
             <button class="btn-decrypto">Descriptografar</button>
@@ -41,14 +40,14 @@ O HTML define a estrutura da página. Veja o trecho principal:
 </body>
 </html>
 ```
-
+- Para acessar o código completo, clique [AQUI](Challenge/index.html).
 ### Dificuldades Enfrentadas
 
 - **Gerenciamento dos IDs e Classes**: Inicialmente, encontrei dificuldades para garantir que os IDs e classes no HTML fossem referenciados corretamente no CSS e JavaScript.
 
 ## CSS
 
-O CSS é responsável pela aparência da página e pela responsividade. Aqui está um exemplo de como estilizamos o painel direito:
+O CSS é responsável pela aparência da página e pela responsividade. Aqui está um exemplo de como estilizei o painel direito:
 
 ```css
 .right-panel {
@@ -68,14 +67,14 @@ O CSS é responsável pela aparência da página e pela responsividade. Aqui est
     color: #2e5077;
 }
 ```
-
+- Para acessar o código completo, clique [AQUI](Challenge/styles.css).
 ### Dificuldades Enfrentadas
 
 - **Responsividade**: Ajustar o design para diferentes tamanhos de tela foi desafiador. A utilização das media queries foi crucial para fazer a página se adaptar bem a tablets e celulares.
 
 ## JavaScript
 
-O JavaScript adiciona funcionalidades para criptografar e descriptografar o texto. Veja um trecho de como implementamos a criptografia:
+O JavaScript adiciona funcionalidades para criptografar e descriptografar o texto. Veja um trecho de como implementei a criptografia:
 
 ```javascript
 const alphabet = 'abcdefghijklmnopqrstuvwxyz';
@@ -89,7 +88,7 @@ function encrypt(text) {
     }).join('');
 }
 ```
-
+- Para acessar o código completo, clique [AQUI](Challenge/script.js).
 ### Dificuldades Enfrentadas
 
 - **Manipulação de Strings**: A lógica de criptografia e descriptografia exigiu uma manipulação cuidadosa das strings. Aprender a usar métodos como `split()`, `map()` e `join()` foi um desafio inicial.
