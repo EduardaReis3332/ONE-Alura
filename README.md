@@ -1,7 +1,3 @@
-Claro, aqui está uma versão melhorada do README para o repositório, escrita de forma que pareça que uma pessoa está aprendendo programação:
-
----
-
 # ONE - Alura
 
 Este repositório contém códigos que desenvolvi durante o programa de formação da Oracle em parceria com a Alura. Aqui estão alguns dos projetos e cursos que explorei enquanto aprendia programação:
