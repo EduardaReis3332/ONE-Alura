@@ -30,3 +30,14 @@ Repositório dedicado para hospedar códigos feitos por mim através do programa
 4. [Código CSS](Curso-HTML/portifolio/styles/styles.css)
 
 5. [Página do Portifólio](https://eduardareis3332.github.io/ONE-Alura/Curso-HTML/portifolio/index.html).
+
+## Challenge
+
+1. Código desenvolvido por mim baseado no curso da Alura.
+2. O objetivo do código é ser um decodificador de texto.
+3. Front-end feito com HTML e CSS.
+4. Lógica do decodificador feito com JavaScript.
+5. [Código HMTL do Decodificador](Challenge/index.html)
+6. [Código CSS do Decodificador](Challenge/styles.css)
+7. [Código JS do Decodificador](Challenge/script.js)
+8. [Página do Decodificar](https://eduardareis3332.github.io/ONE-Alura/Challenge/index.html)
