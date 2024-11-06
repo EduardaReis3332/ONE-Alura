@@ -54,3 +54,19 @@ Esse projeto é um decodificador de texto, desenvolvido como parte de um desafio
    - [Código JavaScript do Decodificador](Challenge/script.js)
    - [Página do Decodificador](https://eduardareis3332.github.io/ONE-Alura/Challenge/index.html)
    - [Readme explicando minha construção do Projeto](Challenge/README.md)
+
+Aqui está uma versão mais curta e em primeira pessoa para seu README:
+
+---
+
+## Curso IA Generativa no Front-end
+
+Neste projeto, explorei o uso da IA para refatorar códigos front-end, tornando-os mais eficientes e acessíveis. Utilizei ferramentas como o Lighthouse para identificar e corrigir problemas de acessibilidade, SEO e performance.
+
+1. **O que fizemos:**
+   - Aprendi a usar a IA para melhorar o HTML, garantindo que mudanças no código não causem efeitos indesejados no CSS.
+   - Apliquei conceitos de acessibilidade e semântica para tornar o código mais claro e inclusivo.
+
+2. **Veja o código:**
+   - [Código HTML Refatorado](Curso-IA&Acessibidade/jornada-ia-base-projeto-base/index.html)
+   - [Página do projeto](https://eduardareis3332.github.io/ONE-Alura/Curso-IA&Acessibidade/jornada-ia-base-projeto-base/index.html)
